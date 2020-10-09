@@ -23,8 +23,8 @@ import Pagination from "@/components/Pagination";
 //Font Awesome 矢量图标引入
 import 'font-awesome/scss/font-awesome.scss';
 //v-charts 引入
-// import VCharts from 'v-charts'
-// Vue.use(VCharts)
+import VCharts from 'v-charts'
+Vue.use(VCharts)
 //  VideoPlayer 引入
 //  import VideoPlayer from 'vue-video-player'
 //  import 'video.js/dist/video-js.css'
