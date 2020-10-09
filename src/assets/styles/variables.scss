@@ -9,15 +9,17 @@ $yellow:#FEC171;
 $panGreen: #30B08F;
 
 // sidebar
-$menuText:#bfcbd9;
+$menuText:#3f3f3f;
 $menuActiveText:#409EFF;
 $subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
-
-$menuBg:#304156;
-$menuHover:#263445;
-
-$subMenuBg:#1f2d3d;
-$subMenuHover:#001528;
+//背景色
+$menuBg:rgba(192,227,238,0.911);
+//鼠标移入颜色
+$menuHover:rgba(131,216,241,0.911);
+//下拉选背景色
+$subMenuBg:#ececec;
+//下拉选鼠标衣服背景色
+$subMenuHover:rgb(189,189,189);
 
 $sideBarWidth: 200px;
 
