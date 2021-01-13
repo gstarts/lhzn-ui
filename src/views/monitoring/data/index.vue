@@ -357,7 +357,7 @@
         <el-form-item label="通道名称:" prop="chnlNo">
           <el-select v-model="artificialForm.chnlNo" placeholder="请选择通道">
             <el-option
-              v-for="item in chnlNameOption"
+              v-for="item in chnlOptions"
               :key="item.dictValue"
               :label="item.dictLabel"
               :value="item.dictValue"
