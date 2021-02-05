@@ -87,5 +87,10 @@ export function detailsData(sessionId){
     method: 'get',
   })
 }
-
+export function VeRfidLicenseInfo(){
+  return request({
+    url:'/monitor/data/related/',
+    method: 'get',
+  })
+}
 
